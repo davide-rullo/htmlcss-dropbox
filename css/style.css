@@ -4,14 +4,80 @@
     box-sizing: border-box;
 }
 
+/* Common */
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.debug header{
-    background-color: aquamarine;
-    height: 40px;
-    width: 100%;
+:root{
+    --dbx-primary: #0061ff;
+    --dbx-hero: #b4d0e7;
+    --dbx-check: #4981ff;
+    --dbx-grey: grey;
+    --dbx-white: #ffffff;
+    --dbx-trial: #b4d0e7;
+    --dbx-trial-text: #610842;
+    --dbx-black: #000000;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+/* End Common */
+
+/* Utilities */
+
+.d-flex{
+    display: flex;
+}
+
+/* End Utilities */
+
+/* Header */
+
+
+
+
+/* End Header */
+
+nav{
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+.right-nav{
+    align-items: center;
+}
+
+nav ul{
+    color: var(--dbx-grey);
+    gap: 2rem;
+}
+
+nav img{
+    margin-right: 2rem;
+}
+
+nav button{
+    margin-left: 2rem;
+}
+
+button{
+    border: none;
+    font-family: Open Sans;
+    padding: .5rem 1rem;
+}
+
+.blue-button{
+    background-color: var(--dbx-primary);
+    color: var(--dbx-white);
+    text-align: center;
+    
 }
 
 .debug main{
