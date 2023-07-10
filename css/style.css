@@ -4,3 +4,24 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.debug header{
+    background-color: aquamarine;
+    height: 40px;
+    width: 100%;
+}
+
+.debug main{
+    background-color: rgb(161, 200, 245);
+    height: 2500px;
+    width: 100%;
+}
+
+.debug footer{
+    background-color: rgb(0, 0, 0);
+    height: 350px;
+    width: 100%;
+}
