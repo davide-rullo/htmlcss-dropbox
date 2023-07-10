@@ -67,9 +67,8 @@ h3{
 
 .col-12{
     width: 100%;
-    
-    height: 400px;
     margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 .flex-column{
@@ -137,8 +136,12 @@ nav button{
     
 }
 
-main{
+.jumbo{
     background-color: var(--dbx-hero);
+}
+
+main{
+    background-color: var(--dbx-white);
     height: 2500px;
     width: 100%;
 }
@@ -177,7 +180,6 @@ section{
 }
 
 .plans{
-    height: 1700px;
     background-color: var(--dbx-white);
     font-size: .9rem;
     
@@ -188,7 +190,7 @@ section{
  
 }
 
-.business{
+.business, .wrap{
     width: 50%;
     margin: auto;
 }
@@ -252,4 +254,24 @@ section{
 
 .subtitle h4{
     margin-bottom: 3rem;
+}
+
+.partner{
+    width: 100%;
+}
+
+.contact-partner{
+    margin: 2rem;
+}
+
+.contact-partner h3{
+    padding-bottom: 1rem;
+}
+.contact-partner p{
+    padding-bottom: 2rem;
+}
+
+.white-button{
+    background-color: var(--dbx-white);
+    border: 1px solid;
 }
