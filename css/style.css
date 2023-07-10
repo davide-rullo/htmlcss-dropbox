@@ -199,7 +199,7 @@ main {
 }
 
 .business,
-.wrap {
+.wrap, .operations {
     width: 50%;
     margin: auto;
 }
@@ -269,7 +269,7 @@ main {
 
 /* Join section */
 
-.join {
+.join, .operations {
     margin-top: 8rem;
 }
 
@@ -292,3 +292,10 @@ main {
 /* End join section */
 
 /* Operations section */
+.img-operations{
+    width: 100%;
+}
+
+.operations h2{
+    margin-bottom: 2rem;
+}
