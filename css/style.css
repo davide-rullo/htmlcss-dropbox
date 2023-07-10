@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,11 +6,11 @@
 
 /* Common */
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
-:root{
+:root {
     --dbx-primary: #0061ff;
     --dbx-hero: #b4d0e7;
     --dbx-check: #4981ff;
@@ -25,77 +25,81 @@ ul {
     list-style-type: none;
 }
 
-button{
+button {
     border: none;
     font-family: Open Sans;
     padding: .5rem 1rem;
     font-size: 1rem;
 }
 
-h1{
+h1 {
     font-weight: 800;
     font-size: -webkit-xxx-large;
     padding-bottom: 2rem;
 }
 
-h2{
+h2 {
     font-size: 32px;
 }
 
-h3{
+h3 {
     font-size: 23px;
 }
 
+.white-button {
+    background-color: var(--dbx-white);
+    border: 1px solid;
+}
 
 
 /* End Common */
 
 /* Utilities */
 
-.d-flex{
+.d-flex {
     display: flex;
 }
 
-.col-4{
+.col-4 {
     width: calc(100% / 12 * 4);
 }
 
-.col-8{
+.col-8 {
     width: calc(100% / 12 * 8);
     position: relative;
 }
 
-.col-12{
+.col-12 {
     width: 100%;
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
 
-.flex-column{
+.flex-column {
     flex-direction: column;
 }
 
-.flex-row{
+.flex-row {
     flex-direction: row;
 }
 
-.justify-center{
-   justify-content: center;
+.justify-center {
+    justify-content: center;
 }
 
-.align-center{
+.align-center {
     align-items: center;
 }
 
-.gap-half{
+.gap-half {
     gap: .5rem;
 }
 
-.py-1{
+.py-1 {
     padding: 1rem;
 }
 
-.py-half{
+.py-half {
     padding: .5rem 1.5rem;
 }
 
@@ -104,43 +108,43 @@ h3{
 
 /* Header */
 
-nav{
+nav {
     justify-content: space-between;
     padding: 1rem;
     align-items: center;
 }
 
-.right-nav{
+.right-nav {
     align-items: center;
 }
 
-nav ul{
+nav ul {
     color: var(--dbx-grey);
     gap: 2rem;
 }
 
-nav img{
+nav img {
     margin-right: 2rem;
 }
 
-nav button{
+nav button {
     margin-left: 2rem;
 }
 
 
 
-.blue-button{
+.blue-button {
     background-color: var(--dbx-primary);
     color: var(--dbx-white);
     text-align: center;
-    
+
 }
 
-.jumbo{
+.jumbo {
     background-color: var(--dbx-hero);
 }
 
-main{
+main {
     background-color: var(--dbx-white);
     height: 2500px;
     width: 100%;
@@ -150,68 +154,73 @@ main{
 /* End Header */
 
 /* Main */
-.jumbo{
+.jumbo {
     margin-bottom: 20px;
 }
 
-section{
 
-}
 
-.hero{
+.hero {
     padding-top: 2rem;
     width: 60%;
     margin: auto;
 }
 
 
-.hero .text-top, .hero button{
+.hero .text-top,
+.hero button {
     margin-bottom: 2rem;
 }
 
-.text-bottom{
+.text-bottom {
     margin-bottom: 4rem;
 }
 
-.hero img{
+.hero img {
     height: 437px;
     position: absolute;
-   
+
 }
 
-.plans{
+/* End jumbo section */
+
+
+/* plans section */
+
+.plans {
     background-color: var(--dbx-white);
     font-size: .9rem;
-    
+
 }
 
-.plans .find{
-   padding-top: 7rem;
- 
+.plans .find {
+    padding-top: 7rem;
+
 }
 
-.business, .wrap{
+.business,
+.wrap {
     width: 50%;
     margin: auto;
 }
 
-.pay-form{
+.pay-form {
     margin: 2rem 0;
     gap: .5rem;
 }
 
 
 
-.card{
+.card {
 
     width: 100%;
     border: 0.1px solid #80808047;
     flex-direction: row;
-    
+
 }
 
 
-.card-top{
+.card-top {
     justify-content: center;
     padding: .5rem;
 }
@@ -222,56 +231,64 @@ section{
     margin-bottom: 2rem;
 }
 
-.center{
+.center {
     margin: 0 10px;
 }
 
-.plan-title{
+.plan-title {
     margin-bottom: .5rem;
     margin-top: .5rem;
 }
 
-.price{
+.price {
     margin-bottom: .3rem;
 }
 
-.share{
+.share {
     margin-bottom: 2rem;
 }
 
-.line{
+.line {
     width: 40%;
     margin: 1rem 0;
 }
 
-.card-4{
+.card-4 {
     justify-content: space-between;
 }
 
-.subtitle{
+.subtitle {
     width: calc(100% / 12 * 8);
 }
 
-.subtitle h4{
+.subtitle h4 {
     margin-bottom: 3rem;
 }
 
-.partner{
+/* End plans section */
+
+/* Join section */
+
+.join {
+    margin-top: 8rem;
+}
+
+.partner {
     width: 100%;
 }
 
-.contact-partner{
+.contact-partner {
     margin: 2rem;
 }
 
-.contact-partner h3{
+.contact-partner h3 {
     padding-bottom: 1rem;
 }
-.contact-partner p{
+
+.contact-partner p {
     padding-bottom: 2rem;
 }
 
-.white-button{
-    background-color: var(--dbx-white);
-    border: 1px solid;
-}
+/* End join section */
+
+/* Operations section */
