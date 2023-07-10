@@ -99,10 +99,15 @@ main{
 .jumbo{
     margin-bottom: 20px;
 }
+
+section{
+
+}
+
 .hero{
+    padding-top: 2rem;
     width: 60%;
     margin: auto;
-    padding-top: 2rem;
 }
 
 h1{
@@ -126,11 +131,46 @@ h1{
 }
 
 .plans{
-    height: 300px;
-    background-color: #0061ff;
+    height: 800px;
+    background-color: var(--dbx-white);
+    
+}
+
+.plans .find{
+   padding-top: 7rem;
+   font-size: 30px;
+}
+
+.business{
+    width: 50%;
+    margin: auto;
+}
+
+.pay-form{
+    margin: 2rem 0;
+    gap: 1rem;
 }
 
 
+
+
+
+
+
+
+.col-4{
+    background-color: #0061ff;
+    height: 500px;
+}
+
+.card{
+    height: 400px;
+    width: 100%;
+}
+
+.center{
+    margin: 0 10px;
+}
 
 .debug footer{
     background-color: rgb(0, 0, 0);
