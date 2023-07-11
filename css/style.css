@@ -496,7 +496,7 @@ main {
 
 .questions h2,
 .question p,
-.chevron h4, .chevron p {
+.chevron h4, .faq-text p{
     padding-bottom: 2rem;
 
 }
@@ -510,9 +510,7 @@ main {
     display: none;
 }
 
-.chevron:hover h4{
-    display: none;
-}
+
 .chevron:hover p{
     display: inline;
 }
