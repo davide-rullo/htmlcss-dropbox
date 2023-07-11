@@ -19,6 +19,15 @@ body {
     --dbx-trial: #b4d0e7;
     --dbx-trial-text: #610842;
     --dbx-black: #000000;
+
+    --dbx-square1: #A3D39A;
+    --dbx-square2: #610842;
+    --dbx-square3: #0192CE;
+    --dbx-square4: #FE1C1D;
+    --dbx-big-square: #F5F4F4;
+    --dbx-square5: #D4011F;
+    --dbx-square7: #0D2580;
+    --dbx-square8: #FED831;
 }
 
 ul {
@@ -95,6 +104,10 @@ h3 {
     gap: .5rem;
 }
 
+.gap-2{
+    gap: 2rem;
+}
+
 .py-1 {
     padding: 1rem;
 }
@@ -125,6 +138,7 @@ nav ul {
 
 nav img {
     margin-right: 2rem;
+
 }
 
 nav button {
@@ -232,7 +246,7 @@ main {
 }
 
 .center {
-    margin: 0 10px;
+    padding: 0 2rem;
 }
 
 .plan-title {
@@ -262,15 +276,15 @@ main {
 }
 
 .subtitle h4 {
-    margin-bottom: 3rem;
+    padding-bottom: 3rem;
 }
 
 /* End plans section */
 
 /* Join section */
 
-.join, .operations {
-    margin-top: 8rem;
+.join, .operations, .companies {
+    padding-top: 8rem;
 }
 
 .partner {
@@ -278,7 +292,7 @@ main {
 }
 
 .contact-partner {
-    margin: 2rem;
+    padding: 2rem;
 }
 
 .contact-partner h3 {
@@ -297,5 +311,22 @@ main {
 }
 
 .operations h2{
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+
+.operations .col-4 h3, .operations .row{
+    padding-bottom: 2rem;
+}
+
+.teams{
+    padding-top: 8rem;
+    padding-bottom: 2.5rem;
+}
+
+/* End Operations section */
+
+/* Companies section */
+
+.companies img{
+    width: 40%;
 }
