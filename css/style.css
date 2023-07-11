@@ -27,7 +27,7 @@ body {
     --dbx-big-square: #F5F4F4;
     --dbx-square5: #D4011F;
     --dbx-square6: #0D2580;
-    --dbx-square7:  #b4d0e7;
+    --dbx-square7: #b4d0e7;
     --dbx-square8: #FED831;
 }
 
@@ -68,10 +68,7 @@ h3 {
 
 }
 
-nav a{
-    color: black;
-    text-decoration: none;
-}
+
 
 /* End Common */
 
@@ -108,8 +105,8 @@ nav a{
     justify-content: center;
 }
 
-.space-between{
- justify-content: space-between;
+.space-between {
+    justify-content: space-between;
 }
 
 .align-center {
@@ -120,7 +117,7 @@ nav a{
     gap: .5rem;
 }
 
-.gap-2{
+.gap-2 {
     gap: 2rem;
 }
 
@@ -134,10 +131,31 @@ nav a{
 
 
 /* End Utilities */
+/* Effects*/
+
+.blue-button,
+.white-button {
+    transition: .5s linear;
+}
+
+.blue-button:hover {
+    filter: brightness(130%);
+}
+
+.white-button:hover {
+    background-color: var(--dbx-black);
+    color: var(--dbx-white);
+}
+
+.nav-border:hover {
+    border-bottom: 1px solid black;
+}
+
 
 /* Header */
 
-header{
+
+header {
     background-color: var(--dbx-white);
     position: sticky;
     top: 0;
@@ -146,8 +164,23 @@ header{
 
 nav {
     justify-content: space-between;
-    padding: 1rem;
+
     align-items: center;
+}
+
+nav img {
+    width: 127px;
+    height: 25px;
+    margin: 0 2rem 0 1rem;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav .blue-button {
+    margin: 0 1rem;
 }
 
 .right-nav {
@@ -159,15 +192,9 @@ nav ul {
     gap: 2rem;
 }
 
-nav img {
-    margin-right: 2rem;
-
+.nav-border {
+    height: 70px;
 }
-
-nav a {
-    margin-left: 2rem;
-}
-
 
 
 .blue-button {
@@ -187,7 +214,7 @@ nav a {
 
 main {
     background-color: var(--dbx-white);
-   
+
     width: 100%;
 }
 
@@ -199,9 +226,12 @@ main {
     margin-bottom: 20px;
 }
 
+.arrow {
+    color: #000000;
+}
 
-
-.hero, .info {
+.hero,
+.info {
     padding-top: 2rem;
     width: 60%;
     margin: auto;
@@ -241,7 +271,9 @@ main {
 }
 
 .business,
-.wrap, .operations, .questions {
+.wrap,
+.operations,
+.questions {
     width: 50%;
     margin: auto;
 }
@@ -308,7 +340,10 @@ main {
 
 /* Join section */
 
-.join, .operations, .companies, .questions {
+.join,
+.operations,
+.companies,
+.questions {
     padding-top: 8rem;
 }
 
@@ -331,19 +366,20 @@ main {
 /* End join section */
 
 /* Operations section */
-.img-operations{
+.img-operations {
     width: 100%;
 }
 
-.operations h2{
+.operations h2 {
     margin-bottom: 1rem;
 }
 
-.operations .col-4 h3, .operations .row{
+.operations .col-4 h3,
+.operations .row {
     padding-bottom: 2rem;
 }
 
-.teams{
+.teams {
     padding-top: 8rem;
     padding-bottom: 2.5rem;
 }
@@ -352,75 +388,75 @@ main {
 
 /* Companies section */
 
-.companies img{
+.companies img {
     width: 40%;
- 
+
 }
 
-.square{
+.square {
     width: 100%;
     aspect-ratio: 1;
     justify-content: center;
     align-items: center;
 }
 
-.square-1{
+.square-1 {
     background-color: var(--dbx-square1);
 }
 
-.square-2{
+.square-2 {
     background-color: var(--dbx-square2);
 }
 
-.square-3{
+.square-3 {
     background-color: var(--dbx-square3);
 }
 
-.square-4{
+.square-4 {
     background-color: var(--dbx-square4);
 }
 
-.square-5{
+.square-5 {
     background-color: var(--dbx-square5);
 }
 
-.square-6{
+.square-6 {
     background-color: var(--dbx-square6);
 }
 
-.square-7{
+.square-7 {
     background-color: var(--dbx-square7);
 }
 
-.square-8{
+.square-8 {
     background-color: var(--dbx-square8);
 }
 
-.wrap{
+.wrap {
     width: 50%;
     margin: auto;
 
 }
 
-.square img{
+.square img {
     filter: invert(1);
 }
 
-.large-square{
+.large-square {
     padding: 2rem;
     background-color: #F5F4F4;
     height: 100%;
 }
 
-.designit{
+.designit {
     padding-bottom: 2rem;
 }
 
-.large-square-hr{
+.large-square-hr {
     width: 80px;
 }
 
-.large-square p{
+.large-square p {
     padding-top: 2rem;
 }
 
@@ -428,26 +464,26 @@ main {
 
 /* CTA section */
 
-.call-to-action{
+.call-to-action {
     background-color: var(--dbx-hero);
     height: 300px;
 }
 
-.bring{
+.bring {
     width: 50%;
     margin: auto;
     justify-content: center;
     align-items: center;
-    height:100%;
+    height: 100%;
     gap: 4rem;
-    
+
 }
 
-.questions{
+.questions {
     padding-bottom: 8rem;
 }
 
-.bring h2{
+.bring h2 {
     color: var(--dbx-square3);
 }
 
@@ -457,12 +493,14 @@ main {
 
 
 
-.questions h2, .question p, .chevron h4 {
+.questions h2,
+.question p,
+.chevron h4 {
     padding-bottom: 2rem;
-   
+
 }
 
-.chevron{
+.chevron {
     padding-top: 2rem;
     justify-content: space-between;
 }
@@ -471,36 +509,36 @@ main {
 
 /* Footer */
 
-footer{
+footer {
     background-color: var(--dbx-black);
     height: 600px;
     color: var(--dbx-white);
 }
 
-footer h3{
+footer h3 {
     padding-top: 3rem;
     padding-bottom: 2rem;
 }
 
-footer a{
+footer a {
     color: white;
     text-decoration: none;
 }
 
-footer li{
+footer li {
     padding-bottom: 1rem;
 }
 
-.under{
+.under {
     width: 60%;
     margin: auto;
     padding-top: 4rem;
 }
 
-footer hr{
+footer hr {
     width: 100px;
 }
 
-.lang{
+.lang {
     padding-top: 1rem;
 }
