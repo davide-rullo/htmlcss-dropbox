@@ -21,12 +21,13 @@ body {
     --dbx-black: #000000;
 
     --dbx-square1: #A3D39A;
-    --dbx-square2: #610842;
-    --dbx-square3: #0192CE;
+    --dbx-square2: #0192CE;
+    --dbx-square3: #610842;
     --dbx-square4: #FE1C1D;
     --dbx-big-square: #F5F4F4;
     --dbx-square5: #D4011F;
-    --dbx-square7: #0D2580;
+    --dbx-square6: #0D2580;
+    --dbx-square7:  #b4d0e7;
     --dbx-square8: #FED831;
 }
 
@@ -329,9 +330,70 @@ main {
 
 .companies img{
     width: 40%;
+ 
 }
 
 .square{
-    width: calc(100% / 12 * 4);
-    height: calc(100% / 12 * 4);
+    width: 100%;
+    aspect-ratio: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-1{
+    background-color: var(--dbx-square1);
+}
+
+.square-2{
+    background-color: var(--dbx-square2);
+}
+
+.square-3{
+    background-color: var(--dbx-square3);
+}
+
+.square-4{
+    background-color: var(--dbx-square4);
+}
+
+.square-5{
+    background-color: var(--dbx-square5);
+}
+
+.square-6{
+    background-color: var(--dbx-square6);
+}
+
+.square-7{
+    background-color: var(--dbx-square7);
+}
+
+.square-8{
+    background-color: var(--dbx-square8);
+}
+
+.wrap{
+    width: 50%;
+    margin: auto;
+
+}
+
+.square img{
+    filter: invert(1);
+}
+
+.large-square{
+    padding: 2rem;
+}
+
+.designit{
+    padding-bottom: 2rem;
+}
+
+.large-square-hr{
+    width: 80px;
+}
+
+.large-square p{
+    padding-top: 2rem;
 }
