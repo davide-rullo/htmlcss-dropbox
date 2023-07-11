@@ -68,6 +68,10 @@ h3 {
 
 }
 
+nav a{
+    color: black;
+    text-decoration: none;
+}
 
 /* End Common */
 
@@ -102,6 +106,10 @@ h3 {
 
 .justify-center {
     justify-content: center;
+}
+
+.space-between{
+ justify-content: space-between;
 }
 
 .align-center {
@@ -172,7 +180,7 @@ nav a {
 
 main {
     background-color: var(--dbx-white);
-    height: 2500px;
+   
     width: 100%;
 }
 
@@ -186,7 +194,7 @@ main {
 
 
 
-.hero {
+.hero, .info {
     padding-top: 2rem;
     width: 60%;
     margin: auto;
@@ -425,6 +433,11 @@ main {
     align-items: center;
     height:100%;
     gap: 4rem;
+    
+}
+
+.questions{
+    padding-bottom: 8rem;
 }
 
 .bring h2{
@@ -435,9 +448,7 @@ main {
 
 /* FAQ section */
 
-.faq{
-    height: 600px;
-}
+
 
 .questions h2, .question p, .chevron h4 {
     padding-bottom: 2rem;
@@ -447,4 +458,42 @@ main {
 .chevron{
     padding-top: 2rem;
     justify-content: space-between;
+}
+
+/* End FAQ section */
+
+/* Footer */
+
+footer{
+    background-color: var(--dbx-black);
+    height: 600px;
+    color: var(--dbx-white);
+}
+
+footer h3{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer li{
+    padding-bottom: 1rem;
+}
+
+.under{
+    width: 60%;
+    margin: auto;
+    padding-top: 4rem;
+}
+
+footer hr{
+    width: 100px;
+}
+
+.lang{
+    padding-top: 1rem;
 }
