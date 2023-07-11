@@ -226,7 +226,7 @@ main {
 }
 
 .business,
-.wrap, .operations {
+.wrap, .operations, .questions {
     width: 50%;
     margin: auto;
 }
@@ -293,7 +293,7 @@ main {
 
 /* Join section */
 
-.join, .operations, .companies {
+.join, .operations, .companies, .questions {
     padding-top: 8rem;
 }
 
@@ -424,6 +424,7 @@ main {
     justify-content: center;
     align-items: center;
     height:100%;
+    gap: 4rem;
 }
 
 .bring h2{
@@ -431,3 +432,19 @@ main {
 }
 
 /* End CTA section */
+
+/* FAQ section */
+
+.faq{
+    height: 600px;
+}
+
+.questions h2, .question p, .chevron h4 {
+    padding-bottom: 2rem;
+   
+}
+
+.chevron{
+    padding-top: 2rem;
+    justify-content: space-between;
+}
