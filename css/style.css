@@ -137,6 +137,13 @@ nav a{
 
 /* Header */
 
+header{
+    background-color: var(--dbx-white);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
 nav {
     justify-content: space-between;
     padding: 1rem;
