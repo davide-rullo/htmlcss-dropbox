@@ -330,3 +330,8 @@ main {
 .companies img{
     width: 40%;
 }
+
+.square{
+    width: calc(100% / 12 * 4);
+    height: calc(100% / 12 * 4);
+}
