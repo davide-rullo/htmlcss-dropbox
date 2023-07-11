@@ -59,6 +59,13 @@ h3 {
 .white-button {
     background-color: var(--dbx-white);
     border: 1px solid;
+    text-align: center;
+    text-decoration: none;
+    font-family: Open Sans;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    color: black;
+
 }
 
 
@@ -142,7 +149,7 @@ nav img {
 
 }
 
-nav button {
+nav a {
     margin-left: 2rem;
 }
 
@@ -152,6 +159,10 @@ nav button {
     background-color: var(--dbx-primary);
     color: var(--dbx-white);
     text-align: center;
+    text-decoration: none;
+    font-family: Open Sans;
+    padding: .5rem 1rem;
+    font-size: 1rem;
 
 }
 
@@ -183,18 +194,19 @@ main {
 
 
 .hero .text-top,
-.hero button {
+.hero a {
     margin-bottom: 2rem;
 }
 
 .text-bottom {
-    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 .hero img {
-    height: 437px;
+    height: 354px;
     position: absolute;
-
+    padding-left: 1rem;
 }
 
 /* End jumbo section */
@@ -246,9 +258,6 @@ main {
     margin-bottom: 2rem;
 }
 
-.center {
-    padding: 0 2rem;
-}
 
 .plan-title {
     margin-bottom: .5rem;
