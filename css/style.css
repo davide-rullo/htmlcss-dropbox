@@ -393,6 +393,8 @@ main {
 
 .large-square{
     padding: 2rem;
+    background-color: #F5F4F4;
+    height: 100%;
 }
 
 .designit{
@@ -406,3 +408,26 @@ main {
 .large-square p{
     padding-top: 2rem;
 }
+
+/* End Companies section */
+
+/* CTA section */
+
+.call-to-action{
+    background-color: var(--dbx-hero);
+    height: 300px;
+}
+
+.bring{
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+
+.bring h2{
+    color: var(--dbx-square3);
+}
+
+/* End CTA section */
