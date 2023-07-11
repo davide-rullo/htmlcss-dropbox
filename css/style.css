@@ -495,7 +495,7 @@ main {
 
 .questions h2,
 .question p,
-.chevron h4 {
+.chevron h4, .chevron p {
     padding-bottom: 2rem;
 
 }
@@ -503,6 +503,20 @@ main {
 .chevron {
     padding-top: 2rem;
     justify-content: space-between;
+}
+
+.chevron p{
+    display: none;
+}
+
+.chevron:hover h4{
+    display: none;
+}
+.chevron:hover p{
+    display: inline;
+}
+.chevron:hover i{
+    transform: rotate(180deg);
 }
 
 /* End FAQ section */
