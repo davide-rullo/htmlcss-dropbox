@@ -149,6 +149,7 @@ h3 {
 
 .nav-border:hover {
     border-bottom: 1px solid black;
+    background-color: #f2EEE8;
 }
 
 
@@ -177,6 +178,7 @@ nav img {
 nav a {
     color: black;
     text-decoration: none;
+    padding: 1rem;
 }
 
 nav .blue-button {
@@ -194,6 +196,7 @@ nav ul {
 
 .nav-border {
     height: 70px;
+    transition: all 1s;
 }
 
 
@@ -217,6 +220,50 @@ main {
 
     width: 100%;
 }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f2EEE8;
+    
+  }
+
+.dropdown {
+    position: relative;
+    transition: all .5s;
+}
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    font-size: 12px;
+    
+  }
+  .dropdown-content a h4{
+    font-size: 12px;
+  }
+.dropdown-left ul, .dropdown-right ul{
+    width: 200px;
+}
+
+.dropdown-left a, .dropdown-right a{
+    padding: .5rem 1rem;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #a7927224;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
 
 
 /* End Header */
