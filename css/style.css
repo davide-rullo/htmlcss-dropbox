@@ -555,4 +555,5 @@ footer hr {
 
 .lang {
     padding-top: 1rem;
+    color: var(--dbx-grey);
 }
