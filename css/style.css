@@ -507,12 +507,12 @@ main {
     justify-content: space-between;
 }
 
-.chevron p{
+.chevron .hide{
     display: none;
 }
 
 
-.chevron:hover p{
+.chevron:hover .hide{
     display: inline;
 }
 .chevron:hover i{
