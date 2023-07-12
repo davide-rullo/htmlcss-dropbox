@@ -403,6 +403,7 @@ main {
 
 .square-1 {
     background-color: var(--dbx-square1);
+    border: 1rem solid rgba(207, 255, 199, 0.451)
 }
 
 .square-2 {
